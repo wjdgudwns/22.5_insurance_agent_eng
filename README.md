@@ -7,7 +7,7 @@ This multi-agent RAG system provides personalized insurance Q&A, claim guidance,
 
 ## 🚀 Live Demo
 
-🔗 [Launch App]([https://your-app.streamlit.app](https://225insuranceagenteng-zzak2847fvyx7n2hixgzbk.streamlit.app/))
+🔗 [Launch App](https://225insuranceagenteng-zzak2847fvyx7n2hixgzbk.streamlit.app/)
 
 ### Test Accounts
 | Role | ID | Password |
