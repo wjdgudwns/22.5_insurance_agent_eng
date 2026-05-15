@@ -268,11 +268,13 @@ Classification criteria:
 Domain classification rules:
 - subscribed_domains: Cross-reference customer enrollment info with question content, include only actually enrolled ones
 - unsubscribed_domains: Domains related to question but customer is not enrolled in
-- auto/vehicle/accident/driving → auto
-- cancer/tumor/diagnosis/chemotherapy → cancer
-- dental/implant/scaling/cavity → teeth
-- precedent/ruling/court/dispute → precedent
+- Anything related to cars, vehicles, driving, or accidents occurring in/with a vehicle → auto
+- Anything related to cancer, tumors, or cancer treatment → cancer
+- Anything related to teeth, dental treatment, or oral health → teeth
+- Anything related to legal cases, court rulings, or disputes → precedent
 - Include all relevant domains if multiple products are involved
+- ONLY use these four domains: auto, cancer, teeth, precedent
+- NEVER create new domains like "health", "life", "accident", "general"
 """
 
 OUT_OF_SCOPE_PROMPT = """
