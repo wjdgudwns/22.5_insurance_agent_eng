@@ -7,7 +7,7 @@ from langchain_core.prompts import PromptTemplate
 from langchain_core.output_parsers import StrOutputParser
 from utils.llm_setup import llm, retrievers, precedent_db, DOMAIN_LABELS
 
-PRECEDENT_SCORE_THRESHOLD = 0.45
+PRECEDENT_SCORE_THRESHOLD = 0.9
 
 TEMPLATE = """
 You are Samsung Fire & Marine Insurance's top claims adjuster and legal advisor AI agent.
