@@ -565,6 +565,12 @@ if st.session_state["mode"] == "user":
             </div>
             <br><br>
             <p style="color:#999;">← Please login on the left</p>
+            <br>
+            <p style="color:#bbb; font-size:0.85rem;">
+                For more information, visit our 
+                <a href="https://github.com/wjdgudwns/22.5_insurance_agent_eng" 
+                   target="_blank" style="color:#0057b8;">GitHub Repository</a>
+            </p>
         </div>
         """, unsafe_allow_html=True)
     else:
